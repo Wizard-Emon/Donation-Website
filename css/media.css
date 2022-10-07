@@ -1,0 +1,173 @@
+ @media only screen and (max-width:850px) {
+     header nav {
+         width: 100%;
+     }
+     header nav .left-header {
+         height: 100%;
+         width: 0;
+         position: fixed;
+         z-index: 1;
+         top: 0;
+         left: 0;
+         background-color: #111;
+         overflow-x: hidden;
+         transition: 0.5s;
+         padding-top: -60px;
+         display: grid;
+         justify-content: left;
+     }
+     .left-header .closebtn {
+         position: absolute;
+         display: block;
+         top: 0;
+         right: 25px;
+         font-size: 36px;
+         margin-left: 50px;
+     }
+     .openbtn {
+         display: block;
+         color: #fff;
+     }
+     .main-menu {
+         display: block;
+     }
+     .menu {
+         height: 2px;
+         width: 30px;
+         background-color: red;
+         display: block;
+         margin-top: 5px;
+     }
+     header nav .right-header {
+         width: 50%;
+         justify-content: center;
+     }
+     header nav .left-header ul li a {
+         padding: 5px;
+     }
+     header nav .left-header ul {
+         display: grid;
+         position: absolute;
+         top: 10%;
+     }
+     header nav .left-header ul li a {
+         display: flex;
+         align-items: center;
+         padding: 10px 15px;
+         font-size: 1rem;
+         color: #fff;
+         position: relative;
+     }
+     header nav .left-header ul li a::after {
+         content: "";
+         position: absolute;
+         width: 0%;
+         height: 0.1rem;
+         background-color: #ff8957;
+         top: 100%;
+     }
+     header nav .left-header ul li a:hover::after {
+         width: 100%;
+         transition: 0.5s;
+     }
+     header nav .right-header .button {
+         margin: 0px 5px;
+         border: none;
+         background: none;
+     }
+     header nav .right-header .button a {
+         border: none;
+         color: #fff;
+         font-size: 0.7rem;
+         border-radius: 5px;
+         padding: 5px 10px;
+     }
+     header nav .right-header .button .button-one {
+         border: 1px solid #ff8957;
+         background: none;
+         padding: 4px 9px;
+     }
+     header nav .right-header .button .button-one:hover {
+         background-color: #ff8957;
+         border: none;
+         transition: 0.5s ease-in-out;
+     }
+     header nav .right-header .button .button-one:hover .button-two {
+         background: none;
+         border: 1px solid #ff8957;
+         transition: 0.5s ease-in-out;
+     }
+     header nav .right-header .button .button-two {
+         background: #ff8957;
+     }
+     header nav .right-header .button .button-two:hover {
+         background: none;
+         border: 1px solid #ff8957;
+         transition: 0.5s ease-in-out;
+         padding: 4px 9px;
+     }
+     .main-container .container-three {
+         width: 90%;
+     }
+ }
+ 
+ @media screen and (max-height: 450px) {
+     .left-header {
+         padding-top: 15px;
+     }
+     .main-container .container-three {
+         width: 100%;
+     }
+     /* banner-decription */
+ }
+ 
+ @media screen and (max-width: 450px) {
+     .main-container {
+         padding: 150px 50px;
+     }
+     .main-container .container-one h1 {
+         font-size: 40px;
+         padding: 30px 0px 0px 0px;
+         text-align: center;
+     }
+     .main-container .container-one h2 {
+         font-size: 20px;
+         line-height: 30px;
+         text-align: center;
+     }
+     .main-container .container-one h2 span {
+         font-size: 20px !important;
+         line-height: 30px;
+     }
+     .main-container .container-one P {
+         text-align: center;
+         font-size: 13px !important;
+     }
+     .main-container .container-two {
+         align-items: center;
+         text-align: center;
+     }
+     .main-container .container-three {
+         width: 100%;
+         justify-content: space-around !important;
+     }
+     /* Banner end */
+     /* Donation part */
+     .donation-container {
+         padding: 40px !important;
+     }
+     .donation-container form {
+         padding: 25px 0px 10px 0px;
+     }
+     .donation-container form input {
+         margin-bottom: 10px;
+     }
+     .about-container {
+         padding: 20px;
+         display: grid;
+     }
+     .about-container .left-section {
+         width: 100%;
+         display: grid;
+     }
+ }
