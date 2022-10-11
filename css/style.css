@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
+    color: #000;
 }
 
 body {
@@ -239,7 +239,7 @@ header nav .right-header .button .button-two:hover {
 /* Donation pera */
 
 .donation-container {
-    padding: 100px;
+    padding: 50px 100px;
     text-align: center;
 }
 
@@ -280,7 +280,7 @@ header nav .right-header .button .button-two:hover {
 /* about section */
 
 .about-container {
-    padding: 100px;
+    padding: 50px 100px;
     display: flex;
 }
 
@@ -304,21 +304,21 @@ header nav .right-header .button .button-two:hover {
 
 .about-container .left-section .up .i-one,
 .about-container .left-section .up .i-two {
-    background: url("/images/p.jpg");
+    background: url("../images/p.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .about-container .left-section .up .i-two {
-    background-image: url("/images/p.jpg");
+    background-image: url("../images/p.jpg");
 }
 
 .about-container .left-section .down {
     width: 100%;
     height: 250px;
     /* border: 1px solid red; */
-    background-image: url("/images/p.jpg");
+    background-image: url("../images/p.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -371,3 +371,182 @@ header nav .right-header .button .button-two:hover {
 
 
 /* End of about section */
+
+
+/* card section */
+
+.card-section {
+    padding: 50px 100px 200px 50px;
+}
+
+.card-section h1 {
+    text-align: center;
+    font-weight: 300;
+}
+
+.cards {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 25px;
+    height: 250px;
+    width: 24%;
+    border: 1px solid red;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 10px 0px #000000;
+    transition: .5s ease-in-out;
+}
+
+
+/* end of card section */
+
+
+/* who section */
+
+.who-section {
+    padding: 50px 100px;
+    background-color: #313131;
+}
+
+.who-section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.who-section .container .left-sec {
+    padding: 50px 50px;
+    width: 35%;
+}
+
+.who-section .container .left-sec h2 {
+    color: #fff;
+    font-weight: 400;
+}
+
+.who-section .container .left-sec p {
+    color: #9f9f9f;
+    padding: 30px 0px;
+    font-size: 14px;
+}
+
+.who-section .container .left-sec button {
+    background-color: none;
+    border: none;
+}
+
+.who-section .container .left-sec button a {
+    border: none;
+    color: #fff;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    padding: 7px 15px;
+    background-color: #ff8957;
+}
+
+.who-section .container .right-div {
+    width: 65%;
+    height: 300px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.who-section .container .right-div .up-pic {
+    position: absolute;
+    top: -100%;
+    transform: translateY(50%);
+    left: 80%;
+    border-radius: 5px;
+    z-index: 1000;
+    padding: 20px 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.621);
+    text-align: center;
+}
+
+.who-section .container .right-div:hover .up-pic {
+    left: 85%;
+    transition: .5s;
+}
+
+.who-section .container .right-div .up-pic p {
+    padding: 10px 0px;
+    font-size: .8rem;
+}
+
+.who-section .container .right-div .middle-pic {
+    background-image: url('../images/p.jpg');
+    position: absolute;
+    width: 70%;
+    height: 300px;
+    top: -50%;
+    left: 20%;
+    border-radius: 5px;
+    z-index: 2;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.who-section .container .right-div .middle-pic::after {
+    position: absolute;
+    content: ' ';
+    height: 100%;
+    width: 0%;
+    background-color: #000000a1;
+    z-index: 12;
+}
+
+.who-section .container .right-div .middle-pic .middle-btn {
+    position: absolute;
+    z-index: 23;
+    left: 0%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.who-section .container .right-div .middle-pic:hover::after {
+    width: 100%;
+    transition: .5s;
+}
+
+.who-section .container .right-div .middle-pic:hover .middle-btn {
+    opacity: 1;
+    left: 50%;
+    transition: .6s;
+}
+
+.who-section .container .right-div .down-pic {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    border-radius: 5px;
+    background-color: #000000a4;
+    color: #fff;
+    padding: 30px 40px;
+    z-index: 10001;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.621);
+    text-align: center;
+}
+
+.who-section .container .right-div:hover .down-pic {
+    left: 0%;
+    transition: .5s;
+}
+
+.who-section .container .right-div .down-pic h1 {
+    color: #fdb813;
+}
+
+.who-section .container .right-div .down-pic p {
+    color: #fff;
+    padding: 10px 0px;
+}
+
+
+/* end of who section */
