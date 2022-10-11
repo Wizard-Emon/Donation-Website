@@ -613,6 +613,7 @@ header nav .right-header .button .button-two:hover {
     z-index: 2;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .who-section .container .right-div .middle-pic::after {
@@ -673,3 +674,72 @@ header nav .right-header .button .button-two:hover {
 
 
 /* end of who section */
+
+
+/* register */
+
+.register {
+    padding: 100px;
+}
+
+.reg-container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+    padding: 30px;
+}
+
+.reg-container .left-reg {
+    width: 40%;
+    text-align: center;
+}
+
+.reg-container .left-reg img {
+    width: 70%;
+}
+
+.reg-container .right-reg {
+    width: 60%;
+    padding: 0px 70px;
+}
+
+.reg-container .right-reg h1 {
+    line-height: 40px;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.reg-container .right-reg p {
+    padding: 30px 0px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+.reg-container .right-reg form {
+    padding: 20px 0px;
+}
+
+.reg-container .right-reg form input {
+    padding: 8px 20px;
+    height: 35px;
+    border: none;
+    background: #fff;
+    box-shadow: .5px .5px 5px 0px rgba(0, 0, 0, 0.323);
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.reg-container .right-reg form .register-btn {
+    background-color: #ff8957;
+    color: #fff;
+    height: 30px;
+    align-items: center;
+}
+
+.reg-container .right-reg form .register-btn:hover {
+    background: none;
+    border: 1px solid #ff8957;
+    color: #ff8957;
+    transition: 0.1s ease-in-out;
+}
