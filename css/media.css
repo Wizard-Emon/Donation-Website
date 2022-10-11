@@ -218,6 +218,7 @@
      }
      .donation-container form input {
          margin-bottom: 10px;
+         width: 100%;
      }
      .about-container {
          padding: 20px;
@@ -301,5 +302,21 @@
          background-color: #ff8957;
          color: #fff;
          border-radius: 5px;
+     }
+     .counting {
+         display: grid;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+     }
+     .counting .count {
+         width: 100%;
+         margin-top: 10px;
+     }
+     .donate-btn {
+         margin-left: 120px;
+     }
+     .donate-btn a {
+         padding: 12px 25px;
      }
  }

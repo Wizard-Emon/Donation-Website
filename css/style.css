@@ -204,11 +204,25 @@ header nav .right-header .button .button-two:hover {
     padding: 10px;
     background-color: #ff8957;
     border-radius: 5px;
+    color: #fff;
+}
+
+.main-container .container-two button .one:hover {
+    background: none;
+    color: #fdb813;
+    border: 1px solid #ff8957;
+    transition: .3s;
 }
 
 .main-container .container-two button .two {
     background: none;
     color: #ff8957;
+}
+
+.main-container .container-two button .two:hover {
+    background: #ff8957;
+    color: #fff;
+    transition: .3s;
 }
 
 .main-container .container-three {
@@ -259,6 +273,11 @@ header nav .right-header .button .button-two:hover {
     background-color: #fdb813;
 }
 
+.donation-container .sub {
+    padding: 10px 0px;
+    height: 50px;
+}
+
 .donation-container #submit {
     padding: 10px 20px;
     border: none;
@@ -270,7 +289,8 @@ header nav .right-header .button .button-two:hover {
     background: none;
     border: 1px solid #ff8957;
     color: #ff8957;
-    transition: 0.4s ease-in-out;
+    padding: 9px 19px;
+    transition: 0.1s ease-in-out;
 }
 
 
@@ -354,7 +374,27 @@ header nav .right-header .button .button-two:hover {
     width: 30%;
     height: 6rem;
     /* border: 1px solid red; */
-    box-shadow: 0px 0px 5px 0px #00000062;
+    box-shadow: 0px 0px 5px 0px #0000004c;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.counting .count .logo-do img {
+    height: 30px;
+    width: 30px;
+}
+
+.counting .count .counts {
+    padding: 20px;
+}
+
+.counting .count .counts .num,
+.counting .count .counts p,
+.plus {
+    color: #ff8957;
 }
 
 .donate-btn {
@@ -370,6 +410,14 @@ header nav .right-header .button .button-two:hover {
     border-radius: 5px;
 }
 
+.donate-btn a:hover {
+    background: none;
+    border: 1px solid #ff8957;
+    color: #ff8957;
+    padding: 9px 19px;
+    transition: 0.1s ease-in-out;
+}
+
 
 /* End of about section */
 
@@ -377,7 +425,7 @@ header nav .right-header .button .button-two:hover {
 /* card section */
 
 .card-section {
-    padding: 50px 100px 200px 50px;
+    padding: 50px 100px 200px 100px;
 }
 
 .card-section h1 {
@@ -386,22 +434,34 @@ header nav .right-header .button .button-two:hover {
 }
 
 .cards {
-    padding: 40px 0px;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
 }
 
 .card {
     padding: 25px;
-    height: 250px;
-    width: 24%;
-    box-shadow: 0px 0px 5px 0px #00000062;
+    height: 230px;
+    width: 23%;
+    box-shadow: 0px 0px 5px 0px #0000004c;
     /* border: 1px solid red; */
+    border-radius: 5px;
 }
 
 .card:hover {
     box-shadow: 0px 0px 8px 0px #000000aa;
     transition: .5s ease-in-out;
+}
+
+.card h3 {
+    font-size: 18px;
+    padding: 15px 0px;
+}
+
+.card p {
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 20px;
 }
 
 
@@ -411,7 +471,7 @@ header nav .right-header .button .button-two:hover {
 /* who section */
 
 .who-section {
-    padding: 50px 100px;
+    padding: 50px 100px 0px 100px;
     background-color: #313131;
 }
 
@@ -439,6 +499,7 @@ header nav .right-header .button .button-two:hover {
 
 .who-section .container .left-sec button {
     background-color: none;
+    background: none;
     border: none;
 }
 
@@ -449,6 +510,66 @@ header nav .right-header .button .button-two:hover {
     border-radius: 5px;
     padding: 7px 15px;
     background-color: #ff8957;
+}
+
+.who-section .container .left-sec button a:hover {
+    background: none;
+    border: 1px solid #ff8957;
+    color: #ff8957;
+    transition: 0.1s ease-in-out;
+}
+
+.social-links {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    font-size: 30px;
+    align-items: center;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-facebook:hover {
+    color: #4267B2;
+    transition: .5s;
+}
+
+.fa-instagram {
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)
+}
+
+.fa-instagram:hover {
+    color: #E1306C;
+    transition: .5s;
+    background: none;
+}
+
+.fa-solid {
+    width: 30px !important;
+}
+
+.fa-twitter {
+    color: #00ACEE;
+}
+
+.fa-twitter:hover {
+    color: #14171A;
+}
+
+.fa-arrow-left {
+    font-size: 12px;
+    color: #ff8957;
+}
+
+.social-links .arrow {
+    font-size: 12px;
+    color: #ff8957;
 }
 
 .who-section .container .right-div {
