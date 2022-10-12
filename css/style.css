@@ -144,7 +144,7 @@ header nav .right-header .button .button-two:hover {
 
 #banner-section {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c6/1024x768-dsc04118.jpg");
-    height: 100vh;
+    height: 900px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -153,7 +153,7 @@ header nav .right-header .button .button-two:hover {
 #banner-section::after {
     position: absolute;
     content: " ";
-    height: 100vh;
+    height: 900px;
     width: 100%;
     background: rgba(0, 0, 0, 0.621);
 }
@@ -586,7 +586,7 @@ header nav .right-header .button .button-two:hover {
     left: 80%;
     border-radius: 5px;
     z-index: 1000;
-    padding: 20px 30px;
+    padding: 10px;
     background-color: #fff;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.621);
     text-align: center;
@@ -598,8 +598,17 @@ header nav .right-header .button .button-two:hover {
 }
 
 .who-section .container .right-div .up-pic p {
-    padding: 10px 0px;
+    padding: 4px;
     font-size: .8rem;
+    color: rgba(0, 0, 0, 0.627);
+}
+
+.who-section .container .right-div .up-pic .donate-btn {
+    padding: 20px 0px 10px 0px;
+}
+
+.who-section .container .right-div .up-pic .donate-btn a {
+    padding: 8px 15px;
 }
 
 .who-section .container .right-div .middle-pic {
@@ -679,7 +688,7 @@ header nav .right-header .button .button-two:hover {
 /* register */
 
 .register {
-    padding: 100px;
+    padding: 100px 100px 50px 100px;
 }
 
 .reg-container {
@@ -742,4 +751,109 @@ header nav .right-header .button .button-two:hover {
     border: 1px solid #ff8957;
     color: #ff8957;
     transition: 0.1s ease-in-out;
+}
+
+
+/* end of reg */
+
+
+/* senior section */
+
+.senior-section {
+    padding: 50px 100px 100px 100px;
+}
+
+.senior-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.senior-container .left-container {
+    width: 50%;
+    padding: 50px;
+}
+
+.senior-container .left-container h1 {
+    font-weight: lighter;
+}
+
+.senior-container .left-container .p {
+    padding: 30px 0px;
+    color: rgba(0, 0, 0, 0.516);
+}
+
+.senior-container .left-container .card-container {}
+
+.senior-container .left-container .cards-se {
+    padding: 7px 0px;
+}
+
+.senior-container .left-container .cards-se .para {
+    display: flex;
+    align-items: center;
+    width: 47%;
+    font-size: .8rem;
+}
+
+.senior-container .left-container .cards-se .para h1 {
+    font-weight: lighter;
+    color: #000000cb;
+    font-size: 23px;
+    margin-left: 12px;
+}
+
+.senior-container .left-container .cards-se p {
+    padding: 5px 0px 0px 53px;
+    color: rgba(0, 0, 0, 0.468);
+    line-height: 28px;
+    font-weight: lighter;
+}
+
+.senior-container .left-container .cards-se .para img {
+    width: 40px;
+}
+
+.senior-container .right-container {
+    width: 50%;
+    position: relative;
+}
+
+.senior-container .right-container .card-conone {
+    position: absolute;
+    background: url("../images/p.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 70%;
+    left: 50%;
+    /* top: 27%; */
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 10px;
+    z-index: 333;
+}
+
+.senior-container .right-container .card-contwo {
+    position: absolute;
+    height: 300px;
+    width: 55%;
+    background-color: #ff8957;
+    left: 70%;
+    /* top: 27%; */
+    bottom: 30%;
+    transform: translate(-55%, 0%);
+    border-radius: 10px;
+}
+
+.senior-container .right-container .card-conthree {
+    position: absolute;
+    height: 200px;
+    width: 40%;
+    background-color: #fdb813;
+    left: 50%;
+    /* top: 27%; */
+    transform: translate(-110%, 40%);
+    border-radius: 10px;
 }

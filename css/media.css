@@ -190,6 +190,22 @@
         width: 100%;
         margin-top: 15px;
     }
+    .senior-section {
+        padding: 20px;
+    }
+    .senior-container {
+        display: grid;
+        width: 100%;
+    }
+    .senior-container .left-container {
+        width: 100%;
+        padding: 100px;
+    }
+    .senior-container .right-container {
+        width: 100%;
+        position: relative;
+        margin-top: 250px;
+    }
 }
 
 
@@ -207,7 +223,7 @@
 
 @media screen and (max-width: 450px) {
     .main-container {
-        padding: 150px 50px;
+        padding: 150px 20px;
     }
     .main-container .container-one h1 {
         font-size: 40px;
@@ -245,7 +261,7 @@
     }
     .donation-container form input {
         margin-bottom: 10px;
-        width: 100%;
+        width: 90%;
     }
     .about-container {
         padding: 20px;
@@ -296,14 +312,21 @@
         padding: 0px;
     }
     .who-section .container .right-div .up-pic {
-        left: 50%;
-        top: -80%;
-        padding: 0px;
+        left: 63%;
+        top: -90%;
+        width: 30%;
+        padding: 5px;
+        /* display: grid;
+        justify-items: center;
+        text-align: center; */
     }
     .who-section .container .right-div:hover .up-pic {
         left: 70%;
         top: -90%;
         transition: .5s;
+    }
+    .who-section .container .right-div .up-pic img {
+        width: 40px;
     }
     .who-section .container .right-div .up-pic p {
         left: 0%;
@@ -331,19 +354,54 @@
         border-radius: 5px;
     }
     .counting {
+        width: 100%;
         display: grid;
         justify-content: center;
         align-items: center;
-        text-align: center;
     }
     .counting .count {
         width: 100%;
         margin-top: 10px;
+        text-align: center;
+        padding: 0px 80px;
+    }
+    .counting .count .logo-do img {
+        width: 50px;
+        height: 50px;
+    }
+    .counting .count .counts .num {
+        padding: 0px 0px;
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    .counting .count .counts p {
+        padding: 0px 0px;
+        font-size: 18px;
+        font-weight: lighter;
     }
     .donate-btn {
         margin-left: 0px;
+        width: 100%;
+        text-align: center;
     }
     .donate-btn a {
         padding: 12px 25px;
+    }
+    .senior-container .left-container {
+        width: 100%;
+        padding: 0px 40px;
+        font-weight: lighter;
+    }
+    .senior-container .right-container {
+        margin-top: 250px;
+    }
+    .senior-container .right-container .card-conone {
+        height: 300px;
+    }
+    .senior-container .right-container .card-contwo {
+        height: 200px;
+    }
+    .senior-container .right-container .card-conthree {
+        height: 130px;
     }
 }
