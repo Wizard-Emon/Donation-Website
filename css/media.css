@@ -428,7 +428,7 @@
         font-size: 10px;
     }
     footer .first-footer {
-        padding: 0px;
+        padding: 60px;
         display: grid;
     }
     footer .first-footer .one .peragra p {
@@ -447,8 +447,12 @@
         margin-left: 0px;
         margin-top: 10px;
     }
+    footer .last-footer .rf p {
+        padding: 0px;
+    }
     footer .last-footer {
         display: grid;
         padding: 10px;
+        justify-content: space-evenly;
     }
 }
