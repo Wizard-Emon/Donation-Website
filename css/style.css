@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #000;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -857,3 +860,269 @@ header nav .right-header .button .button-two:hover {
     transform: translate(-110%, 40%);
     border-radius: 10px;
 }
+
+
+/* blog section start */
+
+.blog-section {
+    padding: 50px 150px;
+}
+
+.blog-section .blog-container .head {
+    padding: 30px 0px 50px 0px;
+    font-size: 40px;
+}
+
+.blog-section .blog-container .slider-cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-section .blog-container .slider-cards .slider-card {
+    width: 30%;
+    height: 450px;
+    box-shadow: 0px 0px 5px 0px #00000071;
+    border-radius: 15px;
+    background: #dfdfdf;
+}
+
+.blog-section .blog-container .slider-cards .slider-card .img {
+    height: 65%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c6/1024x768-dsc04118.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+}
+
+.blog-section .blog-container .slider-cards .slider-card .text {
+    padding: 10px 0px;
+    height: 35%;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.blog-section .blog-container .slider-cards .slider-card .text h3 {
+    padding: 10px 15px;
+    line-height: 22px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.blog-section .blog-container .slider-cards .slider-card .text p {
+    padding: 15px;
+    line-height: 25px;
+    font-size: 15px;
+    padding: 0px 15px;
+    line-height: 25px;
+    color: #616161;
+}
+
+.blog-section .blog-container .slider-cards .slider-card .img .button-up {
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    padding: 10px 20px;
+    background-color: #fdb813;
+    border-radius: 20px 0px 20px 0px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.blog-section .blog-container .slider-cards .slider-card .img .button-up:hover {
+    background: #E1306C;
+    color: #fff;
+    transition: .3s;
+}
+
+.blog-section .blog-container .slider-cards .slider-card:hover .text {
+    background-color: #fdb813;
+    transition: .3s ease-in-out;
+}
+
+
+/* end */
+
+
+/* map */
+
+.map-section {
+    padding: 50px 150px;
+}
+
+.map-section .location {
+    text-align: center;
+}
+
+.map-section .location h1 {
+    padding: 50px 0px;
+    font-size: 30px;
+}
+
+.map-section .location img {
+    width: 100%;
+    padding: 50px 0px 100px 0px;
+}
+
+.stand {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c6/1024x768-dsc04118.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.stand::after {
+    position: absolute;
+    content: " ";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background: #0000009d;
+    border-radius: 10px;
+}
+
+.stand .stand-left {
+    width: 65%;
+    z-index: 333;
+}
+
+.stand .stand-left h1 {
+    color: #fff;
+    font-weight: lighter;
+}
+
+.stand .stand-left p {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 13px;
+    padding: 20px 0px 0px 0px;
+    line-height: 25px;
+}
+
+.stand .stand-right {
+    z-index: 3333;
+    width: 25%;
+    padding: 10px;
+}
+
+.stand .stand-right a {
+    border-radius: 5px;
+    color: #ff8957;
+    z-index: 333;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.stand .stand-right .btn-one {
+    padding: 8px 20px;
+    color: #ff8957;
+    border: 1px solid #ff8957;
+}
+
+.stand .stand-right .btn-one:hover {
+    color: #fff;
+    background-color: #ff8957;
+}
+
+.stand .stand-right .btn-two {
+    padding: 9px 21px;
+    color: #fff;
+    background-color: #ff8957;
+}
+
+.stand .stand-right .btn-two:hover {
+    background: none;
+    border: 1px solid #ff8957;
+    color: #ff8957;
+}
+
+
+/* end of map section */
+
+
+/* FOOTER */
+
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+footer .first-footer {
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .first-footer .part {
+    width: 30%;
+    padding: 15px;
+}
+
+footer .first-footer .one .peragra {
+    display: flex;
+    padding: 8px 0px;
+    line-height: 24px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+footer .first-footer .two {
+    display: grid;
+    justify-content: end;
+}
+
+footer .first-footer .two ul li {
+    padding: 10px 0px;
+}
+
+footer .first-footer .two ul li a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+footer .first-footer .three {
+    padding: 10px 0px 0px 0px;
+}
+
+footer .first-footer .three .register-btn {
+    padding: 5px 10px;
+    border: none;
+    background-color: #ff8957;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 2px;
+    height: 28px;
+}
+
+footer .first-footer .three .register-btn:hover {
+    border: 1px solid #ff8957;
+    color: #ff8957;
+    background: none;
+}
+
+footer .last-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+    background-color: #fdb813;
+    text-align: center;
+    color: #000;
+    font-size: 13px;
+}
+
+
+/* END OF FOOTER */

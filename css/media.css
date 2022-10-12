@@ -317,8 +317,8 @@
         width: 30%;
         padding: 5px;
         /* display: grid;
-        justify-items: center;
-        text-align: center; */
+    justify-items: center;
+    text-align: center; */
     }
     .who-section .container .right-div:hover .up-pic {
         left: 70%;
@@ -403,5 +403,52 @@
     }
     .senior-container .right-container .card-conthree {
         height: 130px;
+    }
+    .blog-section {
+        padding: 250px 50px;
+        text-align: center;
+        display: none;
+    }
+    .map-section {
+        padding: 200px 50px;
+    }
+    .stand {
+        display: grid;
+        padding: 28px;
+    }
+    .stand .stand-right {
+        width: 100%;
+    }
+    .stand .stand-left {
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .satnd .stand-right a {
+        padding: 8px 10px;
+        font-size: 10px;
+    }
+    footer .first-footer {
+        padding: 0px;
+        display: grid;
+    }
+    footer .first-footer .one .peragra p {
+        padding: 0;
+    }
+    footer .first-footer .part {
+        width: 100%;
+        padding: 0;
+    }
+    footer .first-footer .two {
+        display: grid;
+        justify-content: start;
+    }
+    footer .first-footer .three {}
+    footer .first-footer .three .register-btn {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    footer .last-footer {
+        display: grid;
+        padding: 10px;
     }
 }
