@@ -188,7 +188,7 @@ header nav .right-header .button .button-two:hover {
     /* margin-top: 100px; */
     width: 100%;
     padding: 90px 100px 100px 120px;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .main-container .container-one h1 {
@@ -1031,7 +1031,7 @@ header nav .right-header .button .button-two:hover {
 
 .stand .stand-right {
     z-index: 3333;
-    width: 25%;
+    width: 30%;
     padding: 10px;
 }
 

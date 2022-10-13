@@ -243,6 +243,13 @@
     }
 }
 
+@media only screen and (max-width:700px) {
+    .main-container {
+        text-align: center;
+        padding: 50px;
+    }
+}
+
 
 /* @media screen and (max-height: 450px) {
     .left-header {
@@ -301,9 +308,10 @@
     .about-container {
         padding: 20px;
         display: grid;
+        justify-items: center;
     }
     .about-container .left-section {
-        width: 100%;
+        width: 95%;
         display: grid;
     }
     .about-container .right-section {
@@ -453,6 +461,7 @@
     }
     .stand .stand-right {
         width: 100%;
+        text-align: center;
     }
     .stand .stand-left {
         width: 100%;
@@ -489,5 +498,9 @@
         display: grid;
         padding: 10px;
         justify-content: space-evenly;
+    }
+    .stand .stand-right .btn-two,
+    .stand .stand-right .btn-one {
+        padding: 5px 10px;
     }
 }
