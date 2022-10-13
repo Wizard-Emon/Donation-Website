@@ -42,8 +42,25 @@ header {
     justify-content: center;
     flex-wrap: nowrap;
     flex-direction: row;
-    position: absolute;
+    position: fixed;
     z-index: 222;
+}
+
+.sticky {
+    background-color: #000000b7;
+    transition: .5s;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.sticky nav .left-header ul li a {
+    font-size: 12px;
+}
+
+.sticky nav .right-header .button a {
+    padding: 10px 10px;
+    font-size: 12px;
+    transition: .5s ease-in-out;
 }
 
 header nav {
