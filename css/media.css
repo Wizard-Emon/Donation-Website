@@ -2,6 +2,19 @@
     header nav {
         width: 100%;
     }
+    .sticky {
+        padding: 5px 20px;
+        background-color: #ff8957;
+    }
+    .sticky nav .left-header ul li a {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .sticky nav .right-header .button a {
+        padding: 5px 8px;
+        font-size: 12px;
+        transition: .5s ease-in-out;
+    }
     header nav .left-header {
         height: 100%;
         width: 0;
@@ -87,8 +100,19 @@
         background: none;
         padding: 4px 9px;
     }
+    .sticky nav .right-header .button .button-one {
+        border: 1px solid #fff;
+        background: none;
+        padding: 4px 9px;
+    }
     header nav .right-header .button .button-one:hover {
         background-color: #ff8957;
+        border: none;
+        transition: 0.5s ease-in-out;
+    }
+    .sticky nav .right-header .button .button-one:hover {
+        background-color: #fff;
+        color: #ff8957;
         border: none;
         transition: 0.5s ease-in-out;
     }
@@ -100,9 +124,20 @@
     header nav .right-header .button .button-two {
         background: #ff8957;
     }
+    .sticky nav .right-header .button .button-two {
+        background: #fff;
+        color: #ff8957;
+    }
     header nav .right-header .button .button-two:hover {
         background: none;
+        color: #fff;
         border: 1px solid #ff8957;
+        transition: 0.5s ease-in-out;
+        padding: 4px 9px;
+    }
+    .sticky nav .right-header .button .button-two:hover {
+        background: none;
+        border: 1px solid #fff;
         transition: 0.5s ease-in-out;
         padding: 4px 9px;
     }

@@ -51,6 +51,7 @@ header {
     transition: .5s;
     padding: 5px;
     font-size: 12px;
+    z-index: 111111;
 }
 
 .sticky nav .left-header ul li a {
